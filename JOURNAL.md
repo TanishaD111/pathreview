@@ -28,12 +28,12 @@ integration test that exercises it needs real network access and is subject to G
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** 
+**Reproduction commit link:** https://github.com/TanishaD111/pathreview/commit/31b67ccc409eeeb4ae852756ba168b68e99e02ed
 
 **Reproduction summary:**
 Since this issue is to add in a functionality, there is nothing broken because of it. To reproduce it, there is nothing broken to show, but what I do observe is that the two files the review mentions (tests/integration/test_github_tool.py, tests/fixtures/github_responses/) just don't exist yet. Since these tests do not exist and the tool cannot be tested offline since its URL is hardcoded, the two files just arent there. I can see in the agent/tools/github_tool.py file, there is no way to point anything to a url link since the base url is https://api.github.com with no override in the constructor, so its 200/404/403 error paths can only be exercised against the real API, which is why they're skipped in CI. 
 
-**PLAN.md link:** [] This file is created
+**PLAN.md link:** [X] This file is completed
 
 **Blockers or open questions:**
 n/a
