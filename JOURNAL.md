@@ -24,3 +24,16 @@ integration test that exercises it needs real network access and is subject to G
 **Setup confirmation:** [X] App runs locally at localhost:5173
 
 **Cohort ledger:** [X] Issue added to cohort ledger
+
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** 
+
+**Reproduction summary:**
+Since this issue is to add in a functionality, there is nothing broken because of it. To reproduce it, there is nothing broken to show, but what I do observe is that the two files the review mentions (tests/integration/test_github_tool.py, tests/fixtures/github_responses/) just don't exist yet. Since these tests do not exist and the tool cannot be tested offline since its URL is hardcoded, the two files just arent there. I can see in the agent/tools/github_tool.py file, there is no way to point anything to a url link since the base url is https://api.github.com with no override in the constructor, so its 200/404/403 error paths can only be exercised against the real API, which is why they're skipped in CI. 
+
+**PLAN.md link:** [] This file is created
+
+**Blockers or open questions:**
+n/a
