@@ -38,6 +38,7 @@ Since this issue is to add in a functionality, there is nothing broken because o
 **Blockers or open questions:**
 n/a
 
+
 ## Week 9 — Solution building & PR submission
 
 ### Check-in 1 (mid-week)
@@ -68,3 +69,44 @@ The test was added in tests/integration.test_github_tool.py. The four fixtures w
 **Self-review confirmation:** [X] make check passes  [X] make test-unit passes
 
 **Draft PR feedback received from:** none
+
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+I have received no feedback yet. 
+
+**How you responded:**
+I have received no feedback yet. 
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[Be specific — what part of the process, codebase, or workflow
+surprised you?]
+It was just a new experience working on such a big repository. I am very used to building my own projects and understanding exactly what is going on in a repo. It was a new experience to fix a bug and write tests in someone else's repo. I have contributed to large scale repositories at work, but usually I have more of an idea as to what it is about, so it was definitely surprising to me to be able to do something with many other people fixing other issues within the same codebase. 
+
+**What did you learn about working in a large codebase?**
+[What's different about contributing to someone else's production code
+vs. building your own project?]
+With building my own project, I usually kno weverything that imy codebase. I know what all the functions are and what all the files do. It was different to work in someone else's codebase because I had to take time to look through files and folders exploring where everythig was. When I ran the verification checks, I also saw many errors not related to what I was working on. 
+
+**How did AI tools help — and where did they fall short?**
+[Where was AI assistance most useful this module? Where did you need
+to go beyond what AI could give you?]
+AI tools really helped me understand the code and what I had to work on. I was able to ask Claude to help me while I was creating the planning document. This falls short if I don't understand what the issue was intended to fix. There were times I was recommended to add something to the plan when it was unnecessary. 
+
+**What would you do differently if you started over?**
+[Issue selection, planning, implementation, or process — anything
+you'd change?]
+I would change working on the actual fix earlier. I was not able to due to certain family emergencies, but I would have loved to work on the PR earlier next time and being able to get some actual feedback on it before submitting. 
+
+**What are you most proud of from this module?**
+[One thing — it doesn't have to be the PR itself.]
+One thing I am most proud of is learning how to make a contribution in an open source codebase. I have always been intimidated of this personally and have never tried, but I am happy to say I have learned the proper way to go about making the fix using AI tools to help as well. Next time if I am working on something like this individually, I know what steps to take in order to create my PR and make my contribution. 
