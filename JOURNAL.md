@@ -37,3 +37,34 @@ Since this issue is to add in a functionality, there is nothing broken because o
 
 **Blockers or open questions:**
 n/a
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+All tasks from PLAN.md are done.
+
+**Next steps:**
+If I get any feedback on what I have done, I will revisit the issue and make the appropriate changes.
+
+**Blockers:**
+n/a
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** https://github.com/ascherj/pathreview/pull/1021
+
+**Branch:** test/57-add-mock-github-api-server
+
+**What you built:**
+This fix was to set up a lightweight mock server that returns fixture responses, enabling GitHub tool tests in CI. Currently, these tests did not exist as there were no GitHub tool tests. I wrote the tests from scratch, which included making the base_url injectable as the hardcoded current URL made the tool untestable. 
+
+**Tests added or updated:**
+The test was added in tests/integration.test_github_tool.py. The four fixtures were added in tests/fixtures/github_responses. 
+
+**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
+
+**Draft PR feedback received from:** none
